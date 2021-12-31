@@ -1,0 +1,21 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui"> 
+   <ribbon> 
+     <tabs> 
+       <tab id="CustomTab" label="Colors"> 
+         <group id="SampleGroup" label="Pick a color"> 
+           <button id="Button" image="torquis" label="Turquoise" size="large" onAction="DetermineActiveShape" />
+           <button id="Button2" image="purple" label="Purple" size="large" onAction="DetermineActiveShape1" />
+           <button id="Button3" image="red" label="Red" size="large" onAction="DetermineActiveShape2" />
+           <button id="Button4" image="orange" label="Orange" size="large" onAction="DetermineActiveShape3" />
+           <button id="Button5" image="pink" label="Pink" size="large" onAction="DetermineActiveShape4" />
+           <button id="Button6" image="gray" label="Gray" size="large" onAction="DetermineActiveShape5" />
+           <button id="Button7" image="black" label="Black" size="large" onAction="DetermineActiveShape6" />
+           <button id="Button8" image="brown" label="Brown" size="large" onAction="DetermineActiveShape7" />
+           <button id="Button9" image="darkblue" label="Dark Blue" size="large" onAction="DetermineActiveShape8" />
+           <button id="Button10" image="lightblue" label="Light Blue" size="large" onAction="DetermineActiveShape9" />
+           <button id="Button11" image="greenyellow" label="Green Yellow" size="large" onAction="DetermineActiveShape10" /> 
+         </group > 
+       </tab> 
+     </tabs> 
+   </ribbon> 
+ </customUI>
